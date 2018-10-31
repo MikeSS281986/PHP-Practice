@@ -18,12 +18,16 @@
     // }
   }
   $human = new Person(32,"Mike");
+  // Display Name
   echo "Name:&nbsp;".$human->name;
   echo "<br>";
+  //Display the amount of characters in name
   echo "The name ".$human->name." is " .strlen($human->name). " characters long.";
   echo "<br>";
+  //Reverse the name and display
   echo $human->name." reversed is ".strrev($human->name).".";
   echo "<br>";
+  //Display age
   echo "Age:&nbsp;".$human->age;
   ?>
 </body>
